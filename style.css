@@ -1,0 +1,15 @@
+body::-webkit-scrollbar{
+    width: 15px;
+    /*display: none; esconder o scroll*/
+}
+
+/* Personalizar o fundo da barra */
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+/* Alça da barra, que demonstra a altura que você está na página */
+::-webkit-scrollbar-thumb {
+    background: #2e9dd8;
+    border-radius: 8px;
+}
